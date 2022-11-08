@@ -1,0 +1,30 @@
+---
+name: 🚀 Task 
+description: Submit a new instruction task
+labels:
+- task
+
+body:
+- type: textarea
+  attributes:
+    label: 🚀 The Task 
+    description: >
+      Please provide a clear and concise description of the task.
+      Outline any motivation for the task; is it related to a specific problem?
+      If this is related to another task in the GitHub tracker, please link here
+      too.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Example
+    description: >
+      A concise prompt example for the task.
+
+- type: textarea
+  attributes:
+    label: Additional Notes
+    description: >
+      Add any other context, links, or screenshots relevant to the task.
+
